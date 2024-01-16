@@ -1,7 +1,7 @@
 from django.shortcuts import render
 # from django.http import HttpResponse
 # from django.core import serializers
-from .models import Booking, Menu, User
+from .models import Booking, Menu
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.decorators import api_view
