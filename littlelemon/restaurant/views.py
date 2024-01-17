@@ -11,7 +11,7 @@ from .serializers import MenuSerializer, BookingSerializer
 
 # Create your views here.
 def restaurant(request):
-    return render(request, 'index.html', {})
+    return render(request, 'index.html')
 
 class MenuView(ListCreateAPIView):
     queryset = Menu.objects.all()

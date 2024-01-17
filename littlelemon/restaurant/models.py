@@ -17,7 +17,7 @@ class Booking(models.Model):
     no_of_guests = models.SmallIntegerField(default=1)
 
     def __str__(self): 
-        return self.first_name
+        return f'{self.first_name} : {str(self.booking_date)}'
 
 
 
